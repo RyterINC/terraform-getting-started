@@ -16,7 +16,6 @@ resource "aws_ebs_volume" "dev-instance-volume" {
   availability_zone   = "us-east-1c"
   size                = 8
   type                = "gp2"
-  
   tags = {
     Name = "dev-instance-volume"
   }
